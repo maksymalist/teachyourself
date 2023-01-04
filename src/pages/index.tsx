@@ -38,33 +38,29 @@ const Home: NextPage = () => {
                   className="inline-flex rounded-md p-2 text-black transition-all duration-200 hover:bg-gray-100 focus:bg-gray-100 lg:hidden"
                 >
                   <svg
-                    className="block h-6 w-6"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
+                    width="24"
+                    height="24"
                     viewBox="0 0 24 24"
-                    stroke="currentColor"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      d="M21.5 4.5H4.5V21.5H21.5V4.5Z"
+                      fill="black"
+                      stroke="black"
                       stroke-width="2"
-                      d="M4 8h16M4 16h16"
-                    ></path>
-                  </svg>
-
-                  <svg
-                    className="hidden h-6 w-6"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
+                      stroke-linejoin="round"
+                    />
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      d="M19.5 2.5H2.5V19.5H19.5V2.5Z"
+                      fill="#DD7DFF"
+                      stroke="black"
                       stroke-width="2"
-                      d="M6 18L18 6M6 6l12 12"
-                    ></path>
+                      stroke-linejoin="round"
+                    />
+                    <path d="M6 15H16" stroke="black" stroke-width="2" />
+                    <path d="M6 11H16" stroke="black" stroke-width="2" />
+                    <path d="M6 7H16" stroke="black" stroke-width="2" />
                   </svg>
                 </button>
 
@@ -109,10 +105,10 @@ const Home: NextPage = () => {
                 <a
                   href="#"
                   title=""
-                  className="hidden items-center justify-center border-2 border-black bg-brutal-red px-5 py-2.5 text-base font-semibold text-white shadow-brutalist-4 transition-all duration-200 hover:bg-red-400 hover:text-black focus:bg-brutal-red focus:text-black lg:inline-flex"
+                  className="hidden items-center justify-center border-2 border-black bg-brutal-red px-5 py-2.5 text-base font-semibold text-white shadow-brutalist-4 transition-all duration-200 hover:bg-red-400 hover:text-black hover:shadow-brutalist-16 focus:bg-brutal-red focus:text-black lg:inline-flex"
                   role="button"
                   onClick={() => {
-                    signIn();
+                    signIn("discord");
                   }}
                 >
                   {" "}
@@ -122,7 +118,7 @@ const Home: NextPage = () => {
             </div>
           </header>
 
-          <section className="bg-[#FCF8F1] bg-opacity-30 py-10 sm:py-16 lg:py-24">
+          <section className=" bg-opacity-30 py-10 sm:py-16 lg:py-24">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
                 <div>
@@ -150,10 +146,10 @@ const Home: NextPage = () => {
                   <a
                     href="#"
                     title=""
-                    className="mt-8 inline-flex items-center border-2 border-black bg-brutal-green px-6 py-4 font-semibold text-black shadow-brutalist-8 transition-all duration-200 hover:bg-green-400 focus:bg-brutal-green lg:mt-16"
+                    className="mt-8 inline-flex items-center border-2 border-black bg-brutal-green px-6 py-4 font-semibold text-black shadow-brutalist-8 transition-all duration-200 hover:bg-green-400 hover:shadow-brutalist-16 focus:bg-brutal-green lg:mt-16"
                     role="button"
                   >
-                    <span className="mr-2">take the test...</span>
+                    <span className="mr-2">start your journey</span>
                     <svg
                       width="32"
                       height="32"
@@ -253,7 +249,7 @@ const Home: NextPage = () => {
               <a
                 href="#"
                 title=""
-                className="mt-6 hidden items-center justify-center border-2 border-black bg-brutal-purple px-5 py-2.5 text-base font-semibold text-white shadow-brutalist-4 transition-all duration-200 hover:bg-red-400 hover:text-black focus:bg-brutal-red focus:text-black lg:inline-flex"
+                className="mt-6 hidden items-center justify-center border-2 border-black bg-brutal-purple px-5 py-2.5 text-base font-semibold text-white shadow-brutalist-4 transition-all duration-200 hover:bg-red-400 hover:text-black hover:shadow-brutalist-16 focus:bg-brutal-red focus:text-black lg:inline-flex"
                 role="button"
                 onClick={() => {
                   signIn();
@@ -266,7 +262,7 @@ const Home: NextPage = () => {
           </div>
         </section>
 
-        <section className="bg-gray-100 py-10 sm:py-16 lg:py-24">
+        <section className="bg-white py-10 sm:py-16 lg:py-24">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-4xl text-center">
               <h1 className="text-4xl font-bold text-black sm:text-6xl lg:text-7xl">
@@ -580,8 +576,8 @@ const Home: NextPage = () => {
             </div>
           </div>
         </section>
-        <Footer />
       </main>
+      <Footer />
     </>
   );
 };
