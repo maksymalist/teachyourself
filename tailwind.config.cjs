@@ -10,7 +10,7 @@ module.exports = {
         "brutalist-16": "16px 16px 0 #262626",
       },
       colors: {
-        "burtal-orange": "#ffb443",
+        "brutal-orange": "#ffb443",
         "brutal-red": "#ff5d5d",
         "brutal-green": "#00ff75",
         "brutal-blue": "#38dbff",

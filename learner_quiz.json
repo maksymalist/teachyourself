@@ -1,0 +1,53 @@
+{
+  "When you learn new information, do you prefer to:": {
+    "A": "A) Take notes 📝",
+    "B": "B) Listen to explanations 🎤",
+    "C": "C) Do hands-on activities 🧪"
+  },
+  "When you study, do you prefer to:": {
+    "A": "A) Work independently 🤫",
+    "B": "B) Discuss with others 🗣",
+    "C": "C) Create diagrams or mind maps 🗺"
+  },
+  "When you are learning a new skill, do you prefer to:": {
+    "A": "A) Watch videos 📺",
+    "B": "B) Follow instructions 📜",
+    "C": "C) Try it out yourself 🧑‍🔬"
+  },
+  "When trying to remember new information, do you find it more helpful to:": {
+    "A": "A) Write it down 📝",
+    "B": "B) Say it out loud 🗣",
+    "C": "C) Draw a picture 🖼"
+  },
+  "When working on a group project, do you prefer to:": {
+    "A": "A) Lead the group 🙋‍♂️",
+    "B": "B) Work independently 🧑‍💼",
+    "C": "C) Collaborate with the group 🤝"
+  },
+  "When learning something new, do you find it more helpful to:": {
+    "A": "A) Read about it 📖",
+    "B": "B) Watch a video 📺",
+    "C": "C) Try it out yourself 🧑‍🔬"
+  },
+  "When learning something new in class, do you prefer to:": {
+    "A": "A) Take notes 📝",
+    "B": "B) Review material on your own 🧑‍💼",
+    "C": "C) Both 🤝"
+  },
+
+  "What kind of book would you like to read for fun?": {
+    "A": "A) A novel 🦄",
+    "B": "B) A biography 😀",
+    "C": "C) A textbook 🤓"
+  },
+  "When you are not sure how to spell a word, what are you most likely to do?": {
+    "A": "A) Write it down to see if it looks right 📝",
+    "B": "B) Spell it out loud to see if it sounds right 🗣",
+    "C": "C) Trace the letters in the air"
+  },
+  "When you see the word 'cat', what do you do first?": {
+    "A": "A) Picture a cat in your mind 🖼️",
+    "B": "B) Say the word 'cat' to yourself 🗣",
+    "C": "C) Think about being with a cat 🐈"
+  }
+}
